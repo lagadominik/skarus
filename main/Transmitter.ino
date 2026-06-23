@@ -5,11 +5,11 @@ const int pinX  = 34;
 const int pinY  = 35;
 const int pinSW = 32;
 
-// ⚠️ Wpisz MAC adres odbiornika!
+
 uint8_t RECEIVER_MAC[] = {0x80, 0xF3, 0xDA, 0x55, 0x3E, 0x94};
 
-const float V_MAX       = 0.5;    // m/s
-const float OMEGA_MAX   = 3.0;    // rad/s
+const float V_MAX       = 0.5;    
+const float OMEGA_MAX   = 3.0;    
 
 struct DrivePacket {
   float v;
